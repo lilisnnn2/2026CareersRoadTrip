@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9BD7F5"/><stop offset="1" stop-color="#CDEBFF"/></linearGradient>
+    <linearGradient id="cap" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F23B33"/><stop offset="1" stop-color="#D8221C"/></linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <!-- ground shadow -->
+  <ellipse cx="256" cy="430" rx="120" ry="22" fill="#211A2E" opacity="0.15"/>
+  <!-- stem -->
+  <path d="M188 288 C176 360 182 404 204 414 C234 426 278 426 308 414 C330 404 336 360 324 288 Z" fill="#FFF1DC" stroke="#211A2E" stroke-width="11" stroke-linejoin="round"/>
+  <!-- cap -->
+  <path d="M100 256 C100 150 176 92 256 92 C336 92 412 150 412 256 C412 286 360 302 256 302 C152 302 100 286 100 256 Z" fill="url(#cap)" stroke="#211A2E" stroke-width="11" stroke-linejoin="round"/>
+  <!-- spots -->
+  <g fill="#FFF6E8">
+    <ellipse cx="256" cy="152" rx="46" ry="40"/>
+    <ellipse cx="158" cy="210" rx="31" ry="26"/>
+    <ellipse cx="352" cy="204" rx="27" ry="23"/>
+    <ellipse cx="196" cy="132" rx="16" ry="14"/>
+    <ellipse cx="330" cy="142" rx="14" ry="12"/>
+  </g>
+  <!-- cheeks -->
+  <g fill="#F77">
+    <ellipse cx="206" cy="372" rx="14" ry="9" opacity="0.75"/>
+    <ellipse cx="306" cy="372" rx="14" ry="9" opacity="0.75"/>
+  </g>
+  <!-- eyes -->
+  <g fill="#211A2E"><ellipse cx="228" cy="352" rx="15" ry="23"/><ellipse cx="284" cy="352" rx="15" ry="23"/></g>
+  <g fill="#fff"><circle cx="233" cy="344" r="5.5"/><circle cx="289" cy="344" r="5.5"/></g>
+  <!-- smile -->
+  <path d="M242 380 Q256 392 270 380" fill="none" stroke="#211A2E" stroke-width="6" stroke-linecap="round"/>
+</svg>

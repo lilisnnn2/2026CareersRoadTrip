@@ -1,0 +1,16 @@
+{
+  "name": "2026 Careers Roadtrip",
+  "short_name": "Careers GP",
+  "description": "South Coast Grand Prix road-trip pack, 8 to 10 July 2026.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFF8EA",
+  "theme_color": "#E52521",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
