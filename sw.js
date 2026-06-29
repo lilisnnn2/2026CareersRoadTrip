@@ -1,5 +1,5 @@
 /* Careers Roadtrip offline cache */
-const CACHE = 'careers-gp-v2';
+const CACHE = 'careers-gp-v3';
 const ASSETS = [
   '.', 'index.html', 'manifest.webmanifest',
   'icon-180.png', 'icon-192.png', 'icon-512.png'
